@@ -22,13 +22,19 @@ public class SeleniumTest {
     }
 
     @Test
-    public void firstTest() {
+    public void firstTest() throws InterruptedException {
+        SeleniumPracticeFormPage practiceFormPage = new SeleniumPracticeFormPage(driver);
 
+        Thread.sleep(3000);
+        driver.get("https://www.techlistic.com/p/selenium-practice-form.html");
+        Thread.sleep(3000);
+        practiceFormPage.fillName("Natalia", "Chornii");
+        Thread.sleep(10000);
     }
 
     @AfterMethod
     public void afterTest() {
-
+        driver.close();
     }
 }
 
