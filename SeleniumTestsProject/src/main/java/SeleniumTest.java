@@ -28,8 +28,16 @@ public class SeleniumTest {
         Thread.sleep(3000);
         driver.get("https://www.techlistic.com/p/selenium-practice-form.html");
         Thread.sleep(3000);
-        practiceFormPage.fillName("Natalia", "Chornii");
-        Thread.sleep(10000);
+        practiceFormPage.fillName("Natalia", "Chornii")
+                .chooseGender("female")
+                .chooseYearsOfExperience(3)
+                .chooseContinent("Europe")
+                .clickSubmit()
+                .checkName("Natalia", "Chornii")
+                .checkGender("female")
+                .checkExperience(3);
+
+        Thread.sleep(3000);
     }
 
     @AfterMethod
