@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8f0ff33-1392-4ec3-ba81-b0ee410ce84a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumTestsProject/src/main/java/PetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumTestsProject/src/main/java/rest/PetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumTestsProject/temp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SeleniumTestsProject/temp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumTestsProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumTestsProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumTestsProject/src/main/java/PetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumTestsProject/src/main/java/PetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumTestsProject/src/main/java/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumTestsProject/src/main/java/SeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SeleniumTestsProject/src/main/java/rest/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumTestsProject/src/main/java/rest/PetService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
